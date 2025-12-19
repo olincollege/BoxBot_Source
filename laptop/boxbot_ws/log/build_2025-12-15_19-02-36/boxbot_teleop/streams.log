@@ -1,0 +1,25 @@
+[0.680s] Invoking command in '/home/jacob/Desktop/boxbot_ws/src/boxbot_teleop': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/jacob/Desktop/boxbot_ws/build/boxbot_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jacob/Desktop/boxbot_ws/install/boxbot_teleop/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/boxbot_teleop build --build-base /home/jacob/Desktop/boxbot_ws/build/boxbot_teleop/build install --record /home/jacob/Desktop/boxbot_ws/build/boxbot_teleop/install.log --single-version-externally-managed install_data
+[0.843s] running egg_info
+[0.854s] writing ../../build/boxbot_teleop/boxbot_teleop.egg-info/PKG-INFO
+[0.854s] writing dependency_links to ../../build/boxbot_teleop/boxbot_teleop.egg-info/dependency_links.txt
+[0.854s] writing entry points to ../../build/boxbot_teleop/boxbot_teleop.egg-info/entry_points.txt
+[0.854s] writing requirements to ../../build/boxbot_teleop/boxbot_teleop.egg-info/requires.txt
+[0.854s] writing top-level names to ../../build/boxbot_teleop/boxbot_teleop.egg-info/top_level.txt
+[0.877s] reading manifest file '../../build/boxbot_teleop/boxbot_teleop.egg-info/SOURCES.txt'
+[0.877s] adding license file 'LICENSE'
+[0.878s] writing manifest file '../../build/boxbot_teleop/boxbot_teleop.egg-info/SOURCES.txt'
+[0.878s] running build
+[0.878s] running build_py
+[0.878s] copying boxbot_teleop/teleop_keyboard.py -> /home/jacob/Desktop/boxbot_ws/build/boxbot_teleop/build/lib/boxbot_teleop
+[0.878s] running install
+[0.882s] running install_lib
+[0.894s] copying /home/jacob/Desktop/boxbot_ws/build/boxbot_teleop/build/lib/boxbot_teleop/teleop_keyboard.py -> /home/jacob/Desktop/boxbot_ws/install/boxbot_teleop/lib/python3.12/site-packages/boxbot_teleop
+[0.894s] byte-compiling /home/jacob/Desktop/boxbot_ws/install/boxbot_teleop/lib/python3.12/site-packages/boxbot_teleop/teleop_keyboard.py to teleop_keyboard.cpython-312.pyc
+[0.895s] running install_data
+[0.895s] running install_egg_info
+[0.908s] removing '/home/jacob/Desktop/boxbot_ws/install/boxbot_teleop/lib/python3.12/site-packages/boxbot_teleop-0.0.0-py3.12.egg-info' (and everything under it)
+[0.908s] Copying ../../build/boxbot_teleop/boxbot_teleop.egg-info to /home/jacob/Desktop/boxbot_ws/install/boxbot_teleop/lib/python3.12/site-packages/boxbot_teleop-0.0.0-py3.12.egg-info
+[0.909s] running install_scripts
+[0.994s] Installing teleop_keyboard script to /home/jacob/Desktop/boxbot_ws/install/boxbot_teleop/lib/boxbot_teleop
+[0.995s] writing list of installed files to '/home/jacob/Desktop/boxbot_ws/build/boxbot_teleop/install.log'
+[1.012s] Invoked command in '/home/jacob/Desktop/boxbot_ws/src/boxbot_teleop' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/jacob/Desktop/boxbot_ws/build/boxbot_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jacob/Desktop/boxbot_ws/install/boxbot_teleop/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/boxbot_teleop build --build-base /home/jacob/Desktop/boxbot_ws/build/boxbot_teleop/build install --record /home/jacob/Desktop/boxbot_ws/build/boxbot_teleop/install.log --single-version-externally-managed install_data

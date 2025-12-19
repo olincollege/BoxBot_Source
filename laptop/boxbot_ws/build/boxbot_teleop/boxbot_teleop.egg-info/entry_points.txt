@@ -1,0 +1,2 @@
+[console_scripts]
+teleop_keyboard = boxbot_teleop.teleop_keyboard:main

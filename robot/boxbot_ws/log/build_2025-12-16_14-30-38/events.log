@@ -1,0 +1,117 @@
+[0.000000] (-) TimerEvent: {}
+[0.001697] (boxbot_main) JobQueued: {'identifier': 'boxbot_main', 'dependencies': OrderedDict()}
+[0.002678] (boxbot_main) JobStarted: {'identifier': 'boxbot_main'}
+[0.096549] (-) TimerEvent: {}
+[0.197401] (-) TimerEvent: {}
+[0.299674] (-) TimerEvent: {}
+[0.400480] (-) TimerEvent: {}
+[0.501177] (-) TimerEvent: {}
+[0.605537] (-) TimerEvent: {}
+[0.706427] (-) TimerEvent: {}
+[0.807136] (-) TimerEvent: {}
+[0.909538] (-) TimerEvent: {}
+[1.012559] (-) TimerEvent: {}
+[1.113478] (-) TimerEvent: {}
+[1.214423] (-) TimerEvent: {}
+[1.319627] (-) TimerEvent: {}
+[1.420531] (-) TimerEvent: {}
+[1.521505] (-) TimerEvent: {}
+[1.624502] (-) TimerEvent: {}
+[1.727518] (-) TimerEvent: {}
+[1.828455] (-) TimerEvent: {}
+[1.929660] (-) TimerEvent: {}
+[2.032531] (-) TimerEvent: {}
+[2.133661] (-) TimerEvent: {}
+[2.236580] (-) TimerEvent: {}
+[2.337705] (-) TimerEvent: {}
+[2.438643] (-) TimerEvent: {}
+[2.540502] (-) TimerEvent: {}
+[2.643397] (-) TimerEvent: {}
+[2.747935] (-) TimerEvent: {}
+[2.853981] (-) TimerEvent: {}
+[2.956501] (-) TimerEvent: {}
+[3.057475] (-) TimerEvent: {}
+[3.158379] (-) TimerEvent: {}
+[3.262489] (-) TimerEvent: {}
+[3.363458] (-) TimerEvent: {}
+[3.467253] (-) TimerEvent: {}
+[3.568518] (-) TimerEvent: {}
+[3.670685] (-) TimerEvent: {}
+[3.771506] (-) TimerEvent: {}
+[3.872908] (-) TimerEvent: {}
+[3.974494] (-) TimerEvent: {}
+[4.075390] (-) TimerEvent: {}
+[4.176118] (-) TimerEvent: {}
+[4.276976] (-) TimerEvent: {}
+[4.378652] (-) TimerEvent: {}
+[4.480283] (-) TimerEvent: {}
+[4.582093] (-) TimerEvent: {}
+[4.684123] (-) TimerEvent: {}
+[4.785127] (-) TimerEvent: {}
+[4.886075] (-) TimerEvent: {}
+[4.986942] (-) TimerEvent: {}
+[5.087855] (-) TimerEvent: {}
+[5.191550] (-) TimerEvent: {}
+[5.295521] (-) TimerEvent: {}
+[5.396491] (-) TimerEvent: {}
+[5.497754] (-) TimerEvent: {}
+[5.600792] (-) TimerEvent: {}
+[5.702521] (-) TimerEvent: {}
+[5.804494] (-) TimerEvent: {}
+[5.912526] (-) TimerEvent: {}
+[6.013601] (-) TimerEvent: {}
+[6.117205] (-) TimerEvent: {}
+[6.219801] (-) TimerEvent: {}
+[6.330254] (-) TimerEvent: {}
+[6.433443] (-) TimerEvent: {}
+[6.511741] (boxbot_main) Command: {'cmd': ['/home/boxbot/venv/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/boxbot/boxbot_ws/build/boxbot_main/build', '--no-deps', 'symlink_data'], 'cwd': '/home/boxbot/boxbot_ws/build/boxbot_main', 'env': {'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', '_PYTHON_INTERPRETER': '/home/boxbot/venv/bin/python3', 'USER': 'boxbot', 'SSH_CLIENT': '192.168.16.177 59156 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/boxbot/.vscode-server/cli/servers/Stable-cb1933bbc38d329b3595673a600fab5c7368f0a7/server/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/boxbot/.vscode-server/cli/servers/Stable-cb1933bbc38d329b3595673a600fab5c7368f0a7/server/bin/helpers/browser.sh', 'HOME': '/home/boxbot', 'TERM_PROGRAM_VERSION': '1.106.1', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-5d19b267-ecd6-4861-9f2d-7c40413d5b36.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/boxbot/.vscode-server/cli/servers/Stable-cb1933bbc38d329b3595673a600fab5c7368f0a7/server/extensions/git/dist/askpass-main.js', 'PS1': '\\[\x1b]633;A\x07\\](venv) \\[\x1b]633;A\x07\\]\\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\\$ \\[\x1b]633;B\x07\\]\\[\x1b]633;B\x07\\]', 'VSCODE_GIT_ASKPASS_NODE': '/home/boxbot/.vscode-server/cli/servers/Stable-cb1933bbc38d329b3595673a600fab5c7368f0a7/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/cert.pem', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/boxbot/.vscode-server/extensions/ms-python.debugpy-2025.16.0/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/boxbot/boxbot_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'boxbot', '_': '/home/boxbot/venv/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '3', 'PATH': '/home/boxbot/venv/bin:/home/boxbot/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/boxbot/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/boxbot/.vscode-server/cli/servers/Stable-cb1933bbc38d329b3595673a600fab5c7368f0a7/server/bin/remote-cli:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/boxbot/.vscode-server/extensions/ms-python.debugpy-2025.16.0/bundled/scripts/noConfigScripts', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/boxbot/.vscode-server/extensions/ms-python.debugpy-2025.16.0/.noConfigDebugAdapterEndpoints/endpoint-52f3b100ec42121f.txt', 'LANG': 'C.UTF-8', 'PYTHONSTARTUP': '/home/boxbot/.vscode-server/data/User/workspaceStorage/bf0ff67fb53cf5315d20568d7740036d/ms-python.python/pythonrc.py', 'VIRTUAL_ENV_PROMPT': '(venv)', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-784ab4c45c.sock', 'TERM_PROGRAM': 'vscode', 'ROS_DOMAIN_ID': '67', 'AMENT_PREFIX_PATH': '/home/boxbot/boxbot_ws/install/boxbot_main:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VIRTUAL_ENV': '/home/boxbot/venv', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/boxbot/boxbot_ws/build/boxbot_main', 'SSH_CONNECTION': '192.168.16.177 59156 192.168.16.100 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/boxbot/boxbot_ws/build/boxbot_main/prefix_override:/home/boxbot/venv/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/boxbot/boxbot_ws/install/boxbot_main/lib/python3.12/site-packages:/home/boxbot/boxbot_ws/build/boxbot_main:/home/boxbot/boxbot_ws/install/boxbot_main/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[6.533638] (-) TimerEvent: {}
+[6.634414] (-) TimerEvent: {}
+[6.735056] (-) TimerEvent: {}
+[6.835729] (-) TimerEvent: {}
+[6.936893] (-) TimerEvent: {}
+[7.037740] (-) TimerEvent: {}
+[7.138437] (-) TimerEvent: {}
+[7.239036] (-) TimerEvent: {}
+[7.339686] (-) TimerEvent: {}
+[7.440300] (-) TimerEvent: {}
+[7.540956] (-) TimerEvent: {}
+[7.641688] (-) TimerEvent: {}
+[7.742288] (-) TimerEvent: {}
+[7.842952] (-) TimerEvent: {}
+[7.939148] (boxbot_main) StdoutLine: {'line': b'running develop\n'}
+[7.943080] (-) TimerEvent: {}
+[8.043732] (-) TimerEvent: {}
+[8.144626] (-) TimerEvent: {}
+[8.245768] (-) TimerEvent: {}
+[8.346456] (-) TimerEvent: {}
+[8.447138] (-) TimerEvent: {}
+[8.547788] (-) TimerEvent: {}
+[8.648414] (-) TimerEvent: {}
+[8.744089] (boxbot_main) StdoutLine: {'line': b'running egg_info\n'}
+[8.744958] (boxbot_main) StdoutLine: {'line': b'creating boxbot_main.egg-info\n'}
+[8.748559] (-) TimerEvent: {}
+[8.820497] (boxbot_main) StdoutLine: {'line': b'writing boxbot_main.egg-info/PKG-INFO\n'}
+[8.823213] (boxbot_main) StdoutLine: {'line': b'writing dependency_links to boxbot_main.egg-info/dependency_links.txt\n'}
+[8.824131] (boxbot_main) StdoutLine: {'line': b'writing entry points to boxbot_main.egg-info/entry_points.txt\n'}
+[8.825241] (boxbot_main) StdoutLine: {'line': b'writing requirements to boxbot_main.egg-info/requires.txt\n'}
+[8.825960] (boxbot_main) StdoutLine: {'line': b'writing top-level names to boxbot_main.egg-info/top_level.txt\n'}
+[8.826665] (boxbot_main) StdoutLine: {'line': b"writing manifest file 'boxbot_main.egg-info/SOURCES.txt'\n"}
+[8.848711] (-) TimerEvent: {}
+[8.949456] (-) TimerEvent: {}
+[8.995445] (boxbot_main) StdoutLine: {'line': b"reading manifest file 'boxbot_main.egg-info/SOURCES.txt'\n"}
+[8.998664] (boxbot_main) StdoutLine: {'line': b"writing manifest file 'boxbot_main.egg-info/SOURCES.txt'\n"}
+[9.049610] (-) TimerEvent: {}
+[9.082370] (boxbot_main) StdoutLine: {'line': b'running build_ext\n'}
+[9.083280] (boxbot_main) StdoutLine: {'line': b'Creating /home/boxbot/boxbot_ws/install/boxbot_main/lib/python3.12/site-packages/boxbot-main.egg-link (link to .)\n'}
+[9.086012] (boxbot_main) StdoutLine: {'line': b'Installing computer_vision script to /home/boxbot/boxbot_ws/install/boxbot_main/lib/boxbot_main\n'}
+[9.087149] (boxbot_main) StdoutLine: {'line': b'Installing drive script to /home/boxbot/boxbot_ws/install/boxbot_main/lib/boxbot_main\n'}
+[9.088627] (boxbot_main) StdoutLine: {'line': b'\n'}
+[9.089432] (boxbot_main) StdoutLine: {'line': b'Installed /home/boxbot/boxbot_ws/build/boxbot_main\n'}
+[9.089985] (boxbot_main) StdoutLine: {'line': b'running symlink_data\n'}
+[9.149901] (-) TimerEvent: {}
+[9.242369] (boxbot_main) CommandEnded: {'returncode': 0}
+[9.250798] (-) TimerEvent: {}
+[9.351655] (-) TimerEvent: {}
+[9.354664] (boxbot_main) JobEnded: {'identifier': 'boxbot_main', 'rc': 0}
+[9.357819] (-) EventReactorShutdown: {}

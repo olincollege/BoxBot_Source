@@ -1,0 +1,33 @@
+[0.703s] Invoking command in '/home/jacob/Desktop/boxbot_ws/src/boxbot_teleop': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/jacob/Desktop/boxbot_ws/build/boxbot_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jacob/Desktop/boxbot_ws/install/boxbot_teleop/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/boxbot_teleop build --build-base /home/jacob/Desktop/boxbot_ws/build/boxbot_teleop/build install --record /home/jacob/Desktop/boxbot_ws/build/boxbot_teleop/install.log --single-version-externally-managed install_data
+[0.870s] running egg_info
+[0.870s] creating ../../build/boxbot_teleop/boxbot_teleop.egg-info
+[0.879s] writing ../../build/boxbot_teleop/boxbot_teleop.egg-info/PKG-INFO
+[0.880s] writing dependency_links to ../../build/boxbot_teleop/boxbot_teleop.egg-info/dependency_links.txt
+[0.880s] writing requirements to ../../build/boxbot_teleop/boxbot_teleop.egg-info/requires.txt
+[0.880s] writing top-level names to ../../build/boxbot_teleop/boxbot_teleop.egg-info/top_level.txt
+[0.880s] writing manifest file '../../build/boxbot_teleop/boxbot_teleop.egg-info/SOURCES.txt'
+[0.900s] reading manifest file '../../build/boxbot_teleop/boxbot_teleop.egg-info/SOURCES.txt'
+[0.900s] adding license file 'LICENSE'
+[0.900s] writing manifest file '../../build/boxbot_teleop/boxbot_teleop.egg-info/SOURCES.txt'
+[0.901s] running build
+[0.901s] running build_py
+[0.901s] creating /home/jacob/Desktop/boxbot_ws/build/boxbot_teleop/build
+[0.901s] creating /home/jacob/Desktop/boxbot_ws/build/boxbot_teleop/build/lib
+[0.901s] creating /home/jacob/Desktop/boxbot_ws/build/boxbot_teleop/build/lib/boxbot_teleop
+[0.901s] copying boxbot_teleop/__init__.py -> /home/jacob/Desktop/boxbot_ws/build/boxbot_teleop/build/lib/boxbot_teleop
+[0.901s] running install
+[0.905s] running install_lib
+[0.916s] creating /home/jacob/Desktop/boxbot_ws/install/boxbot_teleop/lib/python3.12/site-packages/boxbot_teleop
+[0.916s] copying /home/jacob/Desktop/boxbot_ws/build/boxbot_teleop/build/lib/boxbot_teleop/__init__.py -> /home/jacob/Desktop/boxbot_ws/install/boxbot_teleop/lib/python3.12/site-packages/boxbot_teleop
+[0.916s] byte-compiling /home/jacob/Desktop/boxbot_ws/install/boxbot_teleop/lib/python3.12/site-packages/boxbot_teleop/__init__.py to __init__.cpython-312.pyc
+[0.916s] running install_data
+[0.916s] creating /home/jacob/Desktop/boxbot_ws/install/boxbot_teleop/share/ament_index
+[0.916s] creating /home/jacob/Desktop/boxbot_ws/install/boxbot_teleop/share/ament_index/resource_index
+[0.916s] creating /home/jacob/Desktop/boxbot_ws/install/boxbot_teleop/share/ament_index/resource_index/packages
+[0.917s] copying resource/boxbot_teleop -> /home/jacob/Desktop/boxbot_ws/install/boxbot_teleop/share/ament_index/resource_index/packages
+[0.917s] copying package.xml -> /home/jacob/Desktop/boxbot_ws/install/boxbot_teleop/share/boxbot_teleop
+[0.917s] running install_egg_info
+[0.928s] Copying ../../build/boxbot_teleop/boxbot_teleop.egg-info to /home/jacob/Desktop/boxbot_ws/install/boxbot_teleop/lib/python3.12/site-packages/boxbot_teleop-0.0.0-py3.12.egg-info
+[0.928s] running install_scripts
+[1.005s] writing list of installed files to '/home/jacob/Desktop/boxbot_ws/build/boxbot_teleop/install.log'
+[1.021s] Invoked command in '/home/jacob/Desktop/boxbot_ws/src/boxbot_teleop' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/jacob/Desktop/boxbot_ws/build/boxbot_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jacob/Desktop/boxbot_ws/install/boxbot_teleop/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/boxbot_teleop build --build-base /home/jacob/Desktop/boxbot_ws/build/boxbot_teleop/build install --record /home/jacob/Desktop/boxbot_ws/build/boxbot_teleop/install.log --single-version-externally-managed install_data

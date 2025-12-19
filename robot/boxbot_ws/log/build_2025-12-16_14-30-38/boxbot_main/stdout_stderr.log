@@ -1,0 +1,18 @@
+running develop
+running egg_info
+creating boxbot_main.egg-info
+writing boxbot_main.egg-info/PKG-INFO
+writing dependency_links to boxbot_main.egg-info/dependency_links.txt
+writing entry points to boxbot_main.egg-info/entry_points.txt
+writing requirements to boxbot_main.egg-info/requires.txt
+writing top-level names to boxbot_main.egg-info/top_level.txt
+writing manifest file 'boxbot_main.egg-info/SOURCES.txt'
+reading manifest file 'boxbot_main.egg-info/SOURCES.txt'
+writing manifest file 'boxbot_main.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/boxbot/boxbot_ws/install/boxbot_main/lib/python3.12/site-packages/boxbot-main.egg-link (link to .)
+Installing computer_vision script to /home/boxbot/boxbot_ws/install/boxbot_main/lib/boxbot_main
+Installing drive script to /home/boxbot/boxbot_ws/install/boxbot_main/lib/boxbot_main
+
+Installed /home/boxbot/boxbot_ws/build/boxbot_main
+running symlink_data

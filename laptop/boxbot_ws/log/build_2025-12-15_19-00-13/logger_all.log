@@ -1,0 +1,177 @@
+[0.069s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.069s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=22, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x75b63073b410>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x75b6308b81a0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x75b6308b81a0>>)
+[0.094s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.094s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.094s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.094s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.094s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.094s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.095s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/jacob/Desktop/boxbot_ws'
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(src/boxbot_teleop) by extensions ['ignore', 'ignore_ament_install']
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(src/boxbot_teleop) by extension 'ignore'
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(src/boxbot_teleop) by extension 'ignore_ament_install'
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(src/boxbot_teleop) by extensions ['colcon_pkg']
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(src/boxbot_teleop) by extension 'colcon_pkg'
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(src/boxbot_teleop) by extensions ['colcon_meta']
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(src/boxbot_teleop) by extension 'colcon_meta'
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(src/boxbot_teleop) by extensions ['ros']
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(src/boxbot_teleop) by extension 'ros'
+[0.116s] DEBUG:colcon.colcon_core.package_identification:Package 'src/boxbot_teleop' with type 'ros.ament_python' and name 'boxbot_teleop'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extensions ['ignore', 'ignore_ament_install']
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extension 'ignore'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extension 'ignore_ament_install'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extensions ['colcon_pkg']
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extension 'colcon_pkg'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extensions ['colcon_meta']
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extension 'colcon_meta'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extensions ['ros']
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extension 'ros'
+[0.117s] DEBUG:colcon.colcon_core.package_identification:Package 'src/py_pubsub' with type 'ros.ament_python' and name 'py_pubsub'
+[0.117s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.117s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.117s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.117s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.117s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.128s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.128s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.129s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/jacob/Desktop/boxbot_ws/install
+[0.130s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 318 installed packages in /opt/ros/jazzy
+[0.131s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.158s] Level 5:colcon.colcon_core.verb:set package 'boxbot_teleop' build argument 'cmake_args' from command line to 'None'
+[0.158s] Level 5:colcon.colcon_core.verb:set package 'boxbot_teleop' build argument 'cmake_target' from command line to 'None'
+[0.158s] Level 5:colcon.colcon_core.verb:set package 'boxbot_teleop' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.158s] Level 5:colcon.colcon_core.verb:set package 'boxbot_teleop' build argument 'cmake_clean_cache' from command line to 'False'
+[0.158s] Level 5:colcon.colcon_core.verb:set package 'boxbot_teleop' build argument 'cmake_clean_first' from command line to 'False'
+[0.158s] Level 5:colcon.colcon_core.verb:set package 'boxbot_teleop' build argument 'cmake_force_configure' from command line to 'False'
+[0.158s] Level 5:colcon.colcon_core.verb:set package 'boxbot_teleop' build argument 'ament_cmake_args' from command line to 'None'
+[0.158s] Level 5:colcon.colcon_core.verb:set package 'boxbot_teleop' build argument 'catkin_cmake_args' from command line to 'None'
+[0.158s] Level 5:colcon.colcon_core.verb:set package 'boxbot_teleop' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.158s] DEBUG:colcon.colcon_core.verb:Building package 'boxbot_teleop' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jacob/Desktop/boxbot_ws/build/boxbot_teleop', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jacob/Desktop/boxbot_ws/install/boxbot_teleop', 'merge_install': False, 'path': '/home/jacob/Desktop/boxbot_ws/src/boxbot_teleop', 'symlink_install': False, 'test_result_base': None}
+[0.158s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'cmake_args' from command line to 'None'
+[0.158s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'cmake_target' from command line to 'None'
+[0.158s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.158s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'cmake_clean_cache' from command line to 'False'
+[0.158s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'cmake_clean_first' from command line to 'False'
+[0.158s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'cmake_force_configure' from command line to 'False'
+[0.158s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'ament_cmake_args' from command line to 'None'
+[0.158s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'catkin_cmake_args' from command line to 'None'
+[0.158s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.159s] DEBUG:colcon.colcon_core.verb:Building package 'py_pubsub' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jacob/Desktop/boxbot_ws/build/py_pubsub', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jacob/Desktop/boxbot_ws/install/py_pubsub', 'merge_install': False, 'path': '/home/jacob/Desktop/boxbot_ws/src/py_pubsub', 'symlink_install': False, 'test_result_base': None}
+[0.159s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.160s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.160s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/jacob/Desktop/boxbot_ws/src/boxbot_teleop' with build type 'ament_python'
+[0.161s] Level 1:colcon.colcon_core.shell:create_environment_hook('boxbot_teleop', 'ament_prefix_path')
+[0.163s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.163s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jacob/Desktop/boxbot_ws/install/boxbot_teleop/share/boxbot_teleop/hook/ament_prefix_path.ps1'
+[0.163s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jacob/Desktop/boxbot_ws/install/boxbot_teleop/share/boxbot_teleop/hook/ament_prefix_path.dsv'
+[0.164s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jacob/Desktop/boxbot_ws/install/boxbot_teleop/share/boxbot_teleop/hook/ament_prefix_path.sh'
+[0.164s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.164s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.166s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/jacob/Desktop/boxbot_ws/src/py_pubsub' with build type 'ament_python'
+[0.166s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_pubsub', 'ament_prefix_path')
+[0.166s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jacob/Desktop/boxbot_ws/install/py_pubsub/share/py_pubsub/hook/ament_prefix_path.ps1'
+[0.167s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jacob/Desktop/boxbot_ws/install/py_pubsub/share/py_pubsub/hook/ament_prefix_path.dsv'
+[0.167s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jacob/Desktop/boxbot_ws/install/py_pubsub/share/py_pubsub/hook/ament_prefix_path.sh'
+[0.167s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.167s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.308s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/jacob/Desktop/boxbot_ws/src/boxbot_teleop'
+[0.309s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.309s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.448s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/jacob/Desktop/boxbot_ws/src/py_pubsub'
+[0.448s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.448s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.827s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jacob/Desktop/boxbot_ws/src/py_pubsub': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/jacob/Desktop/boxbot_ws/build/py_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jacob/Desktop/boxbot_ws/install/py_pubsub/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/jacob/Desktop/boxbot_ws/build/py_pubsub/build install --record /home/jacob/Desktop/boxbot_ws/build/py_pubsub/install.log --single-version-externally-managed install_data
+[0.832s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jacob/Desktop/boxbot_ws/src/boxbot_teleop': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/jacob/Desktop/boxbot_ws/build/boxbot_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jacob/Desktop/boxbot_ws/install/boxbot_teleop/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/boxbot_teleop build --build-base /home/jacob/Desktop/boxbot_ws/build/boxbot_teleop/build install --record /home/jacob/Desktop/boxbot_ws/build/boxbot_teleop/install.log --single-version-externally-managed install_data
+[1.169s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jacob/Desktop/boxbot_ws/src/boxbot_teleop' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/jacob/Desktop/boxbot_ws/build/boxbot_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jacob/Desktop/boxbot_ws/install/boxbot_teleop/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/boxbot_teleop build --build-base /home/jacob/Desktop/boxbot_ws/build/boxbot_teleop/build install --record /home/jacob/Desktop/boxbot_ws/build/boxbot_teleop/install.log --single-version-externally-managed install_data
+[1.173s] Level 1:colcon.colcon_core.environment:checking '/home/jacob/Desktop/boxbot_ws/install/boxbot_teleop' for CMake module files
+[1.174s] Level 1:colcon.colcon_core.environment:checking '/home/jacob/Desktop/boxbot_ws/install/boxbot_teleop' for CMake config files
+[1.175s] Level 1:colcon.colcon_core.environment:checking '/home/jacob/Desktop/boxbot_ws/install/boxbot_teleop/lib'
+[1.175s] Level 1:colcon.colcon_core.environment:checking '/home/jacob/Desktop/boxbot_ws/install/boxbot_teleop/bin'
+[1.175s] Level 1:colcon.colcon_core.environment:checking '/home/jacob/Desktop/boxbot_ws/install/boxbot_teleop/lib/pkgconfig/boxbot_teleop.pc'
+[1.175s] Level 1:colcon.colcon_core.environment:checking '/home/jacob/Desktop/boxbot_ws/install/boxbot_teleop/lib/python3.12/site-packages'
+[1.175s] Level 1:colcon.colcon_core.shell:create_environment_hook('boxbot_teleop', 'pythonpath')
+[1.176s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jacob/Desktop/boxbot_ws/install/boxbot_teleop/share/boxbot_teleop/hook/pythonpath.ps1'
+[1.176s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jacob/Desktop/boxbot_ws/install/boxbot_teleop/share/boxbot_teleop/hook/pythonpath.dsv'
+[1.177s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jacob/Desktop/boxbot_ws/install/boxbot_teleop/share/boxbot_teleop/hook/pythonpath.sh'
+[1.177s] Level 1:colcon.colcon_core.environment:checking '/home/jacob/Desktop/boxbot_ws/install/boxbot_teleop/bin'
+[1.177s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(boxbot_teleop)
+[1.178s] INFO:colcon.colcon_core.shell:Creating package script '/home/jacob/Desktop/boxbot_ws/install/boxbot_teleop/share/boxbot_teleop/package.ps1'
+[1.178s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jacob/Desktop/boxbot_ws/install/boxbot_teleop/share/boxbot_teleop/package.dsv'
+[1.179s] INFO:colcon.colcon_core.shell:Creating package script '/home/jacob/Desktop/boxbot_ws/install/boxbot_teleop/share/boxbot_teleop/package.sh'
+[1.179s] INFO:colcon.colcon_core.shell:Creating package script '/home/jacob/Desktop/boxbot_ws/install/boxbot_teleop/share/boxbot_teleop/package.bash'
+[1.180s] INFO:colcon.colcon_core.shell:Creating package script '/home/jacob/Desktop/boxbot_ws/install/boxbot_teleop/share/boxbot_teleop/package.zsh'
+[1.180s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jacob/Desktop/boxbot_ws/install/boxbot_teleop/share/colcon-core/packages/boxbot_teleop)
+[1.181s] Level 1:colcon.colcon_core.environment:checking '/home/jacob/Desktop/boxbot_ws/install/py_pubsub' for CMake module files
+[1.182s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jacob/Desktop/boxbot_ws/src/py_pubsub' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/jacob/Desktop/boxbot_ws/build/py_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jacob/Desktop/boxbot_ws/install/py_pubsub/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/jacob/Desktop/boxbot_ws/build/py_pubsub/build install --record /home/jacob/Desktop/boxbot_ws/build/py_pubsub/install.log --single-version-externally-managed install_data
+[1.182s] Level 1:colcon.colcon_core.environment:checking '/home/jacob/Desktop/boxbot_ws/install/py_pubsub' for CMake config files
+[1.182s] Level 1:colcon.colcon_core.environment:checking '/home/jacob/Desktop/boxbot_ws/install/py_pubsub/lib'
+[1.182s] Level 1:colcon.colcon_core.environment:checking '/home/jacob/Desktop/boxbot_ws/install/py_pubsub/bin'
+[1.182s] Level 1:colcon.colcon_core.environment:checking '/home/jacob/Desktop/boxbot_ws/install/py_pubsub/lib/pkgconfig/py_pubsub.pc'
+[1.182s] Level 1:colcon.colcon_core.environment:checking '/home/jacob/Desktop/boxbot_ws/install/py_pubsub/lib/python3.12/site-packages'
+[1.183s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_pubsub', 'pythonpath')
+[1.183s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jacob/Desktop/boxbot_ws/install/py_pubsub/share/py_pubsub/hook/pythonpath.ps1'
+[1.183s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jacob/Desktop/boxbot_ws/install/py_pubsub/share/py_pubsub/hook/pythonpath.dsv'
+[1.183s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jacob/Desktop/boxbot_ws/install/py_pubsub/share/py_pubsub/hook/pythonpath.sh'
+[1.184s] Level 1:colcon.colcon_core.environment:checking '/home/jacob/Desktop/boxbot_ws/install/py_pubsub/bin'
+[1.184s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(py_pubsub)
+[1.184s] INFO:colcon.colcon_core.shell:Creating package script '/home/jacob/Desktop/boxbot_ws/install/py_pubsub/share/py_pubsub/package.ps1'
+[1.184s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jacob/Desktop/boxbot_ws/install/py_pubsub/share/py_pubsub/package.dsv'
+[1.184s] INFO:colcon.colcon_core.shell:Creating package script '/home/jacob/Desktop/boxbot_ws/install/py_pubsub/share/py_pubsub/package.sh'
+[1.185s] INFO:colcon.colcon_core.shell:Creating package script '/home/jacob/Desktop/boxbot_ws/install/py_pubsub/share/py_pubsub/package.bash'
+[1.185s] INFO:colcon.colcon_core.shell:Creating package script '/home/jacob/Desktop/boxbot_ws/install/py_pubsub/share/py_pubsub/package.zsh'
+[1.185s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jacob/Desktop/boxbot_ws/install/py_pubsub/share/colcon-core/packages/py_pubsub)
+[1.185s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.185s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.186s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.186s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.189s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.189s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.189s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.196s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.196s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jacob/Desktop/boxbot_ws/install/local_setup.ps1'
+[1.198s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jacob/Desktop/boxbot_ws/install/_local_setup_util_ps1.py'
+[1.198s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jacob/Desktop/boxbot_ws/install/setup.ps1'
+[1.199s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jacob/Desktop/boxbot_ws/install/local_setup.sh'
+[1.199s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jacob/Desktop/boxbot_ws/install/_local_setup_util_sh.py'
+[1.199s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jacob/Desktop/boxbot_ws/install/setup.sh'
+[1.200s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jacob/Desktop/boxbot_ws/install/local_setup.bash'
+[1.200s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jacob/Desktop/boxbot_ws/install/setup.bash'
+[1.200s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jacob/Desktop/boxbot_ws/install/local_setup.zsh'
+[1.201s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jacob/Desktop/boxbot_ws/install/setup.zsh'

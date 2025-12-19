@@ -1,0 +1,18 @@
+[5.606s] Invoking command in '/home/boxbot/boxbot_ws/build/boxbot_main': PS1=(venv) PYTHONPATH=/home/boxbot/boxbot_ws/build/boxbot_main/prefix_override:/home/boxbot/venv/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/boxbot/boxbot_ws/install/boxbot_main/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(venv) /home/boxbot/venv/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/boxbot/boxbot_ws/build/boxbot_main/build --no-deps symlink_data
+[7.105s] running develop
+[7.967s] running egg_info
+[8.046s] writing boxbot_main.egg-info/PKG-INFO
+[8.049s] writing dependency_links to boxbot_main.egg-info/dependency_links.txt
+[8.055s] writing entry points to boxbot_main.egg-info/entry_points.txt
+[8.057s] writing requirements to boxbot_main.egg-info/requires.txt
+[8.058s] writing top-level names to boxbot_main.egg-info/top_level.txt
+[8.221s] reading manifest file 'boxbot_main.egg-info/SOURCES.txt'
+[8.228s] writing manifest file 'boxbot_main.egg-info/SOURCES.txt'
+[8.320s] running build_ext
+[8.324s] Creating /home/boxbot/boxbot_ws/install/boxbot_main/lib/python3.12/site-packages/boxbot-main.egg-link (link to .)
+[8.328s] Installing computer_vision script to /home/boxbot/boxbot_ws/install/boxbot_main/lib/boxbot_main
+[8.329s] Installing drive script to /home/boxbot/boxbot_ws/install/boxbot_main/lib/boxbot_main
+[8.331s] 
+[8.332s] Installed /home/boxbot/boxbot_ws/build/boxbot_main
+[8.332s] running symlink_data
+[8.488s] Invoked command in '/home/boxbot/boxbot_ws/build/boxbot_main' returned '0': PS1=(venv) PYTHONPATH=/home/boxbot/boxbot_ws/build/boxbot_main/prefix_override:/home/boxbot/venv/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/boxbot/boxbot_ws/install/boxbot_main/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(venv) /home/boxbot/venv/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/boxbot/boxbot_ws/build/boxbot_main/build --no-deps symlink_data

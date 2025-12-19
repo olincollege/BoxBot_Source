@@ -1,0 +1,127 @@
+[1.573s] DEBUG:colcon:Command line arguments: ['/home/boxbot/venv/bin/colcon', 'build', '--symlink-install']
+[1.573s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff807745f0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff8089c8f0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff8089c8f0>>)
+[2.270s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.271s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.271s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.271s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.271s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[2.272s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.272s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/boxbot/boxbot_ws'
+[2.273s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[2.274s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[2.275s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[2.275s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[2.275s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[2.276s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[2.276s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[2.276s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[2.276s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.485s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[2.485s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[2.486s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[2.486s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[2.486s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[2.487s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[2.488s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[2.488s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[2.489s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[2.490s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[2.490s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[2.491s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[2.491s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[2.492s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[2.492s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[2.493s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[2.493s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[2.494s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[2.494s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[2.494s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[2.495s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[2.495s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[2.495s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[2.496s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[2.496s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[2.496s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[2.497s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[2.497s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[2.498s] Level 1:colcon.colcon_core.package_identification:_identify(src/boxbot_main) by extensions ['ignore', 'ignore_ament_install']
+[2.498s] Level 1:colcon.colcon_core.package_identification:_identify(src/boxbot_main) by extension 'ignore'
+[2.499s] Level 1:colcon.colcon_core.package_identification:_identify(src/boxbot_main) by extension 'ignore_ament_install'
+[2.500s] Level 1:colcon.colcon_core.package_identification:_identify(src/boxbot_main) by extensions ['colcon_pkg']
+[2.500s] Level 1:colcon.colcon_core.package_identification:_identify(src/boxbot_main) by extension 'colcon_pkg'
+[2.500s] Level 1:colcon.colcon_core.package_identification:_identify(src/boxbot_main) by extensions ['colcon_meta']
+[2.501s] Level 1:colcon.colcon_core.package_identification:_identify(src/boxbot_main) by extension 'colcon_meta'
+[2.501s] Level 1:colcon.colcon_core.package_identification:_identify(src/boxbot_main) by extensions ['ros']
+[2.501s] Level 1:colcon.colcon_core.package_identification:_identify(src/boxbot_main) by extension 'ros'
+[2.521s] DEBUG:colcon.colcon_core.package_identification:Package 'src/boxbot_main' with type 'ros.ament_python' and name 'boxbot_main'
+[2.522s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.522s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.522s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.523s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.525s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.701s] Level 5:colcon.colcon_core.verb:set package 'boxbot_main' build argument 'cmake_args' from command line to 'None'
+[2.702s] Level 5:colcon.colcon_core.verb:set package 'boxbot_main' build argument 'cmake_target' from command line to 'None'
+[2.703s] Level 5:colcon.colcon_core.verb:set package 'boxbot_main' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.703s] Level 5:colcon.colcon_core.verb:set package 'boxbot_main' build argument 'cmake_clean_cache' from command line to 'False'
+[2.704s] Level 5:colcon.colcon_core.verb:set package 'boxbot_main' build argument 'cmake_clean_first' from command line to 'False'
+[2.704s] Level 5:colcon.colcon_core.verb:set package 'boxbot_main' build argument 'cmake_force_configure' from command line to 'False'
+[2.705s] Level 5:colcon.colcon_core.verb:set package 'boxbot_main' build argument 'ament_cmake_args' from command line to 'None'
+[2.705s] Level 5:colcon.colcon_core.verb:set package 'boxbot_main' build argument 'catkin_cmake_args' from command line to 'None'
+[2.705s] Level 5:colcon.colcon_core.verb:set package 'boxbot_main' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.706s] DEBUG:colcon.colcon_core.verb:Building package 'boxbot_main' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/boxbot/boxbot_ws/build/boxbot_main', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/boxbot/boxbot_ws/install/boxbot_main', 'merge_install': False, 'path': '/home/boxbot/boxbot_ws/src/boxbot_main', 'symlink_install': True, 'test_result_base': None}
+[2.706s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.721s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.723s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/boxbot/boxbot_ws/src/boxbot_main' with build type 'ament_python'
+[2.724s] Level 1:colcon.colcon_core.shell:create_environment_hook('boxbot_main', 'ament_prefix_path')
+[2.756s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.759s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/boxbot/boxbot_ws/install/boxbot_main/share/boxbot_main/hook/ament_prefix_path.ps1'
+[2.772s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/boxbot/boxbot_ws/install/boxbot_main/share/boxbot_main/hook/ament_prefix_path.dsv'
+[2.793s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/boxbot/boxbot_ws/install/boxbot_main/share/boxbot_main/hook/ament_prefix_path.sh'
+[2.805s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.805s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.499s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/boxbot/boxbot_ws/src/boxbot_main'
+[4.500s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.500s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.330s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/boxbot/boxbot_ws/build/boxbot_main': PS1=(venv) PYTHONPATH=/home/boxbot/boxbot_ws/build/boxbot_main/prefix_override:/home/boxbot/venv/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/boxbot/boxbot_ws/install/boxbot_main/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(venv) /home/boxbot/venv/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/boxbot/boxbot_ws/build/boxbot_main/build --no-deps symlink_data
+[11.210s] Level 1:colcon.colcon_core.shell:create_environment_hook('boxbot_main', 'pythonpath_develop')
+[11.211s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/boxbot/boxbot_ws/build/boxbot_main/share/boxbot_main/hook/pythonpath_develop.ps1'
+[11.213s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/boxbot/boxbot_ws/build/boxbot_main' returned '0': PS1=(venv) PYTHONPATH=/home/boxbot/boxbot_ws/build/boxbot_main/prefix_override:/home/boxbot/venv/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/boxbot/boxbot_ws/install/boxbot_main/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(venv) /home/boxbot/venv/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/boxbot/boxbot_ws/build/boxbot_main/build --no-deps symlink_data
+[11.215s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/boxbot/boxbot_ws/build/boxbot_main/share/boxbot_main/hook/pythonpath_develop.dsv'
+[11.220s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/boxbot/boxbot_ws/build/boxbot_main/share/boxbot_main/hook/pythonpath_develop.sh'
+[11.254s] Level 1:colcon.colcon_core.environment:checking '/home/boxbot/boxbot_ws/install/boxbot_main' for CMake module files
+[11.258s] Level 1:colcon.colcon_core.environment:checking '/home/boxbot/boxbot_ws/install/boxbot_main' for CMake config files
+[11.263s] Level 1:colcon.colcon_core.environment:checking '/home/boxbot/boxbot_ws/install/boxbot_main/lib'
+[11.264s] Level 1:colcon.colcon_core.environment:checking '/home/boxbot/boxbot_ws/install/boxbot_main/bin'
+[11.265s] Level 1:colcon.colcon_core.environment:checking '/home/boxbot/boxbot_ws/install/boxbot_main/lib/pkgconfig/boxbot_main.pc'
+[11.266s] Level 1:colcon.colcon_core.environment:checking '/home/boxbot/boxbot_ws/install/boxbot_main/lib/python3.12/site-packages'
+[11.267s] Level 1:colcon.colcon_core.shell:create_environment_hook('boxbot_main', 'pythonpath')
+[11.267s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/boxbot/boxbot_ws/install/boxbot_main/share/boxbot_main/hook/pythonpath.ps1'
+[11.270s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/boxbot/boxbot_ws/install/boxbot_main/share/boxbot_main/hook/pythonpath.dsv'
+[11.274s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/boxbot/boxbot_ws/install/boxbot_main/share/boxbot_main/hook/pythonpath.sh'
+[11.279s] Level 1:colcon.colcon_core.environment:checking '/home/boxbot/boxbot_ws/install/boxbot_main/bin'
+[11.279s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(boxbot_main)
+[11.280s] INFO:colcon.colcon_core.shell:Creating package script '/home/boxbot/boxbot_ws/install/boxbot_main/share/boxbot_main/package.ps1'
+[11.287s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/boxbot/boxbot_ws/install/boxbot_main/share/boxbot_main/package.dsv'
+[11.292s] INFO:colcon.colcon_core.shell:Creating package script '/home/boxbot/boxbot_ws/install/boxbot_main/share/boxbot_main/package.sh'
+[11.298s] INFO:colcon.colcon_core.shell:Creating package script '/home/boxbot/boxbot_ws/install/boxbot_main/share/boxbot_main/package.bash'
+[11.305s] INFO:colcon.colcon_core.shell:Creating package script '/home/boxbot/boxbot_ws/install/boxbot_main/share/boxbot_main/package.zsh'
+[11.311s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/boxbot/boxbot_ws/install/boxbot_main/share/colcon-core/packages/boxbot_main)
+[11.313s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[11.315s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[11.316s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[11.316s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[11.332s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify2': 'notify2' not found
+[11.333s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[11.334s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[11.334s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify_send'
+[11.361s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[11.362s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/boxbot/boxbot_ws/install/local_setup.ps1'
+[11.371s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/boxbot/boxbot_ws/install/_local_setup_util_ps1.py'
+[11.382s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/boxbot/boxbot_ws/install/setup.ps1'
+[11.389s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/boxbot/boxbot_ws/install/local_setup.sh'
+[11.394s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/boxbot/boxbot_ws/install/_local_setup_util_sh.py'
+[11.398s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/boxbot/boxbot_ws/install/setup.sh'
+[11.404s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/boxbot/boxbot_ws/install/local_setup.bash'
+[11.408s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/boxbot/boxbot_ws/install/setup.bash'
+[11.415s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/boxbot/boxbot_ws/install/local_setup.zsh'
+[11.420s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/boxbot/boxbot_ws/install/setup.zsh'

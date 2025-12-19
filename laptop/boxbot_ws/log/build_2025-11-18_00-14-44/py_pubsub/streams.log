@@ -1,0 +1,23 @@
+[0.667s] Invoking command in '/home/jacob/Desktop/boxbot_ws/src/py_pubsub': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/jacob/Desktop/boxbot_ws/build/py_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jacob/Desktop/boxbot_ws/install/py_pubsub/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/jacob/Desktop/boxbot_ws/build/py_pubsub/build install --record /home/jacob/Desktop/boxbot_ws/build/py_pubsub/install.log --single-version-externally-managed install_data
+[0.844s] running egg_info
+[0.855s] writing ../../build/py_pubsub/py_pubsub.egg-info/PKG-INFO
+[0.855s] writing dependency_links to ../../build/py_pubsub/py_pubsub.egg-info/dependency_links.txt
+[0.855s] writing entry points to ../../build/py_pubsub/py_pubsub.egg-info/entry_points.txt
+[0.855s] writing requirements to ../../build/py_pubsub/py_pubsub.egg-info/requires.txt
+[0.856s] writing top-level names to ../../build/py_pubsub/py_pubsub.egg-info/top_level.txt
+[0.879s] reading manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[0.880s] adding license file 'LICENSE'
+[0.881s] writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[0.881s] running build
+[0.881s] running build_py
+[0.881s] running install
+[0.885s] running install_lib
+[0.897s] running install_data
+[0.897s] running install_egg_info
+[0.913s] removing '/home/jacob/Desktop/boxbot_ws/install/py_pubsub/lib/python3.12/site-packages/py_pubsub-0.0.0-py3.12.egg-info' (and everything under it)
+[0.914s] Copying ../../build/py_pubsub/py_pubsub.egg-info to /home/jacob/Desktop/boxbot_ws/install/py_pubsub/lib/python3.12/site-packages/py_pubsub-0.0.0-py3.12.egg-info
+[0.916s] running install_scripts
+[1.002s] Installing listener script to /home/jacob/Desktop/boxbot_ws/install/py_pubsub/lib/py_pubsub
+[1.002s] Installing talker script to /home/jacob/Desktop/boxbot_ws/install/py_pubsub/lib/py_pubsub
+[1.003s] writing list of installed files to '/home/jacob/Desktop/boxbot_ws/build/py_pubsub/install.log'
+[1.023s] Invoked command in '/home/jacob/Desktop/boxbot_ws/src/py_pubsub' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/jacob/Desktop/boxbot_ws/build/py_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jacob/Desktop/boxbot_ws/install/py_pubsub/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/jacob/Desktop/boxbot_ws/build/py_pubsub/build install --record /home/jacob/Desktop/boxbot_ws/build/py_pubsub/install.log --single-version-externally-managed install_data

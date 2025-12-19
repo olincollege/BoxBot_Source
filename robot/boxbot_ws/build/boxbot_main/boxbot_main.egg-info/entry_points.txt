@@ -1,0 +1,3 @@
+[console_scripts]
+computer_vision = boxbot_main.computer_vision:main
+drive = boxbot_main.drive:main
